@@ -1,0 +1,273 @@
+body{
+    color: #707070;
+    text-decoration: none;
+}
+nav{
+    box-shadow: 0px 2px 7px;
+}
+nav #navbarSupportedContent{
+    justify-content: flex-end;
+}
+
+.navbar-brand img{
+    width: 75px;
+    height:50px
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #0359AA;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: #6AD46E;
+}
+nav #navbarSupportedContent ul{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnhome{
+    background-color: #0359AA;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0;
+}
+.btnhome:hover{
+    color: #6AD46E;
+    background-color: #fff;
+}
+.two{
+    padding: 3rem 0;
+}
+.two .content{
+    padding: 3rem 0;
+}
+.two .bold{
+font-weight: bold;
+font-size: 1.2rem;
+}
+.g {
+    align-items: center;
+}
+span{
+    color:  #6AD46E;
+}
+.item p{
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+button{
+    border:1px solid #6AD46E;
+    background-color: transparent;
+    padding: .75rem 3rem;
+    border-radius: 1.75rem;
+    margin-left: 12.5%;
+}
+
+button:hover{
+color: #6AD46E;
+border:1px solid #12e415;
+}
+
+.three ,.five ,.data{
+    padding: 3rem 5rem;
+    background-color: #c1c1c12b;
+}
+.three p{
+    font-weight: 500;
+    font-size: 1.2rem; 
+}
+
+.four{
+    padding: 3rem 0; 
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.five{
+    padding: 3rem 0; 
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.imgteam{
+    padding: 3rem 0; 
+}
+footer{
+    color: #000;
+}
+footer .links ,footer .socialIcons{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+footer .links p ,footer .socialIcons p{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.list-group-flush>.list-group-item {
+    border-width: 0 0 0;
+}
+ 
+.list-group-item{
+    background-color: transparent;
+}
+.list-group-item a{
+    text-decoration: none;
+    color: #707070;
+}
+.list-group-item a:hover{
+    color: #6AD46E;
+}
+.socialIcons span{
+    display: inline-block;
+    margin-right: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    text-align: center;
+    transition: all .8s;
+  }
+  .socialIcons span i{
+    color: #1e1e1e;
+    font-size: 1.2rem;
+    transform: translatey(30%);
+  }
+  .socialIcons span:hover{
+    background-color: #c1c1c12b;
+    border: 2px solid #c1c1c12b;
+  }
+  span:hover i{
+    color: #6AD46E;
+  }
+
+
+
+  /* home page style */
+
+  .devices{
+      padding:3rem 0;
+
+  }
+  .devices .devicesContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+  }
+  .devices .devicesContent div{
+      width: 140px;
+      height: 120px;
+      background-color: #5C98E6;
+      border-radius: 70%;
+      display: flex;
+      align-items: center;
+     border:1px solid #707070;
+   
+  }
+  .devices .devicesContent div p{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+
+
+  h2{
+      color: #6AD46E;
+      padding-bottom: 2rem;
+   font-style: italic;
+  }
+  section .homephoto{
+      background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.596)) , url('../img/homephoto.png');
+      background-size: cover;
+      background-position: center ;
+      height: 100vh;
+ display: flex;
+ align-items: center;
+  }
+ 
+  section .homephoto .photoabove {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8% 0;
+  }
+
+  section .homephoto .photoabove img{
+      width: 25%;
+      height: 25%;
+  }
+
+  section .homephoto .homephotoContent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  section .homephoto .homephotoContent p{
+      color: #fff;
+      font-size: 1.3rem;
+      padding: 0 20%;
+      text-align: justify;
+  }
+
+
+
+.info{
+      padding:4rem 0;
+
+  }
+  .info p{
+      text-align: justify;
+      color: #0359AA;
+      padding-top: 20px;
+     font-style: italic;
+     font-weight: 700;
+    }
+
+ .info .dif{
+     font-size: 1.5rem;
+     padding: 20% 0;
+     }   
+
+     .item1{
+         padding-top: 14rem;
+     }
+
+  @media screen and (max-width: 767.98px){
+
+    .three ,.five ,.data{
+        padding: 3rem 0;
+    
+    }
+    .socialIcons{
+        margin-top: 1.3rem;
+    }
+
+.two .item{
+    margin-left: 25%;
+    margin-top: 1.3rem;
+}
+
+
+section .homephoto{
+   
+    height: 75vh;
+}
+
+section .homephoto .photoabove img{
+    width: 30%;
+    height: 30%;
+}
+section .homephoto .homephotoContent p{
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 10%;
+    text-align: justify;
+}
+  }
+
+  @media screen and (max-width: 999.98px){
+
+  }
