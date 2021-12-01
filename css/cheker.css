@@ -60,7 +60,7 @@ p span{
 color: rgb(24, 23, 23);
 }
 .carousel-item{
-    background-image: url('../Image/bb.jpg');
+    background-image: url('../image/bb.jpg');
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-size:cover;
@@ -85,7 +85,7 @@ p{
     color: rgb(110, 106, 106);
 }
 .infodoc{
-    background-image:url('../Image/images\ \(1\).jfif');
+    background-image:url('../image/images\ \(1\).jfif');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
