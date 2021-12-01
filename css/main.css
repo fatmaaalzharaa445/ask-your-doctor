@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-head, .signup-head{
+    justify-content:space-between;
+}
+.login-head h4,.signup-head h4{
+    color: #0B5ED7;
+}
+.login-head span, .signup-head span{
+    color: #31CD00;
+}
+.login-head,.login-info, .signup-head, .signup-info
+{
+    background-color: #c4eeec;
+}
+.login-logo img {
+    width: 100px;
+    border-radius: 50%;
+  }

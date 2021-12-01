@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(194, 189, 189, 0.603);
+}
+.menu  ul li a{
+text-decoration: none;
+Color: #eee !important;;
+}
+.menu  ul li:hover{
+    background-color: #18aeac;
+}
+.border-bottom:hover{
+  
+    box-shadow: 0 0 1rem .1rem rgba(0,0,0,.15);
+}
+i{
+    color: rgb(190, 181, 181);
+}
+.norate{
+
+    color: rgb(190, 181, 181)!important;
+}
+
+.btn{
+    background-color: #18aeac;
+    color: rgb(253, 253, 253);
+}
+.btn:hover{
+    background-color: #20d6d3;
+    color: rgb(253, 253, 253);
+}
+ 
+
+.img{
+position: relative;
+background-color: #81e9fe4d;
+border :1px solid rgba(240, 248, 255, 0.39);
+}
+
+
+.imgcon{
+    position: absolute;
+    top:-50;
+}
+.desc p{
+    color: rgb(253, 253, 253);
+
+
+    
+}
+p span{
+
+    font-weight: bold;    
+
+color: rgb(24, 23, 23);
+}
+.carousel-item{
+    background-image: url('../Image/bb.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size:cover;
+}
+.fa-star,.fa-medal{
+    color: rgb(245, 209, 8);
+}
+.b{
+  border-bottom :1px solid rgba(240, 248, 255, 0.39);
+}
+.imgdoc{
+    border :2px solid rgba(240, 248, 255, 0.39);
+}
+.link{
+    background-color: #00314c ;
+
+}
+li a:hover{
+    background-color: #18aeac!important;
+}
+p{
+    color: rgb(110, 106, 106);
+}
+.infodoc{
+    background-image:url('../Image/images\ \(1\).jfif');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.infobg{
+    background-color: #acd5c9;
+    
+}
+.navbg{
+    background-color: #00314c;
+    
+}
+
+nav a{
+    color: #eee !important;
+}
+.dropdown-item{
+    color: rgb(110, 106, 106) !important;
+}
+.bgdep{
+    background-color: #ffffff ;
+}
+/* ////////////////////////////////////////////////chat/////////////////// */
+
+
+
+
+/* ////////////////////////////////////end chat /.......*/
